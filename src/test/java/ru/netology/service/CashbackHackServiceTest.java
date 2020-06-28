@@ -21,8 +21,8 @@ public class CashbackHackServiceTest {
     public void shouldTestAmountMoreThan1000() {
 
 
-        int actual = cashbackHackService.remain(1500);
-        int expected = 500;
+        int actual = cashbackHackService.remain(1600);
+        int expected = 400;
         assertEquals(actual, expected);
     }
 
