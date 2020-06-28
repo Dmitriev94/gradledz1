@@ -10,8 +10,8 @@ public class CashbackHackServiceTest {
     @org.junit.Test
     public void shouldTestLessThen1000() {
 
-        int actual = cashbackHackService.remain(999);
-        int expected = 1;
+        int actual = cashbackHackService.remain(998);
+        int expected = 2;
         assertEquals(expected, actual);
 
     }
